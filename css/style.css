@@ -1,0 +1,16 @@
+*{
+    font-family: 'Calibri', sans-serif;
+}
+body{
+    padding-top: 30px;
+}
+
+#search input{
+    width: 15vw;
+    border-color: black;
+}
+
+#search button{
+    width: 5vw;
+    border-color: green;
+}
