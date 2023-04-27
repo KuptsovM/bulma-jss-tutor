@@ -2,6 +2,11 @@ var input = document.querySelector('#search input');
 var addButton = document.querySelector('#search button');
 var table = document.querySelector('.table tbody');
 
+<<<<<<< HEAD
+var basket = document.querySelector('.basket tbody')
+
+=======
+>>>>>>> 16dec815ca6019712f2874c5505578f5a441cca0
 addButton.addEventListener('click', function() {
     
   Swal.fire({
@@ -46,6 +51,7 @@ addButton.addEventListener('click', function() {
                         '<td>' + price + '</td>' +
                         '<td>' + quantity + '</td>' +
                         '<td><button class="del-btn button is-danger">X</button></td>';
+
         
         table.appendChild(row);
         
@@ -64,7 +70,11 @@ addButton.addEventListener('click', function() {
         if(sum.textContent !== null){
           let oldSum = Number(sum.textContent);
           let currentSum = total + oldSum;
+<<<<<<< HEAD
+          
+=======
           console.log(currentSum);
+>>>>>>> 16dec815ca6019712f2874c5505578f5a441cca0
           sum.textContent = String(currentSum.toFixed(2));
         } else {
           sum.textContent = String(total.toFixed(2));
@@ -76,6 +86,13 @@ addButton.addEventListener('click', function() {
         deleteButton.addEventListener('click', function() {
           row.remove();
         });
+<<<<<<< HEAD
+
+
+
+
+=======
+>>>>>>> 16dec815ca6019712f2874c5505578f5a441cca0
       }
   });
 });
