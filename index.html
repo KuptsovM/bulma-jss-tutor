@@ -15,18 +15,21 @@
 
     <div class="container mt-6 is-flex justify-content-center is-flex-direction-column align-items-center">
         <div id="search">
-            <input class="input" type="text">
-            <button class="button">+</button>
+            <div>
+                <input class="input" type="text">
+                <button class="button">+</button>
+            </div>
 
 
-            <div class="is-flex has-text-weight-bold">Итого: <p  id="sum"></p></div>
+
+            
         </div>
 
 
 
 
 
-        <table class="table is-striped table-bordered">
+        <table class="table is-striped table-bordered mt-6">
             <thead>
                 <tr>
                     <th><abbr >№</abbr></th>
@@ -42,6 +45,29 @@
             <tbody>
 
             </tbody>
+
+
+        </table>
+
+        <div class="title mt-6">BASKET</div>
+        <div class="is-flex has-text-weight-bold mb-3">Итого: <p  id="sum"></p></div>
+        <table id="basket" class="table is-striped table-bordered">
+            <thead>
+                <tr>
+                    <th><abbr >№</abbr></th>
+                    <th><abbr >Название</abbr></th>
+                    <th><abbr >Цена,Руб</abbr></th>
+                    <th><abbr >Количество</abbr></th>
+                    <th><abbr ></abbr></th>
+                    
+                    
+               
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+
 
         </table>
 
